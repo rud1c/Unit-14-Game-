@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - hostage
+  - player
   layers:
   - Default
   - TransparentFX

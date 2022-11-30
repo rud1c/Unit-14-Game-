@@ -13,6 +13,8 @@ public class EnemyAI : MonoBehaviour
 
     public float health;
 
+    
+
     //Patroling
     public Vector3 walkPoint;
     bool walkPointSet;

@@ -6,10 +6,12 @@ public class wasd : MonoBehaviour
 {
     public float speed = 4f;
     public float move = 10f;
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
+
     }
 
     public float jumpAmount = 10;
@@ -20,61 +22,63 @@ public class wasd : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown("space") && isGrounded)
-        {
-            GetComponent<Rigidbody>().AddForce(Vector3.up * jumpAmount, ForceMode.Impulse);
-            isGrounded = false;
+            if (Input.GetKeyDown("space") && isGrounded)
+            {
+                GetComponent<Rigidbody>().AddForce(Vector3.up * jumpAmount, ForceMode.Impulse);
+                isGrounded = false;
+            }
+
+
+            float x = Input.GetAxis("Horizontal");
+
+            float z = Input.GetAxis("Vertical");
+
+            Vector3 move = (transform.right * x + transform.forward * z) * speed * Time.deltaTime;
+            animator.SetFloat("Speed_f", move.magnitude);
+            animator.SetInteger("WeaponType_int", 1);
+
+
+            if (Input.GetKey(KeyCode.W))
+            {
+                transform.position += move;
+            }
+
+            if (Input.GetKey(KeyCode.S))
+            {
+                transform.position += move;
+            }
+
+            if (Input.GetKey(KeyCode.A))
+            {
+                transform.position += move;
+            }
+
+            if (Input.GetKey(KeyCode.D))
+            {
+                transform.position += move;
+            }
+
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                speed = 6f;
+            }
+
+            else
+            {
+                speed = 4f;
+            }
+
+            //test
+
+
         }
 
 
-        float x = Input.GetAxis("Horizontal");
-
-        float z = Input.GetAxis("Vertical");
-
-        Vector3 move = (transform.right * x + transform.forward * z) * speed * Time.deltaTime;
-
-
-        if (Input.GetKey(KeyCode.W))
+        void OnCollisionStay()
         {
-            transform.position += move;
+
+            isGrounded = true;
+
         }
-
-        if (Input.GetKey(KeyCode.S))
-        {
-            transform.position += move;
-        }
-
-        if (Input.GetKey(KeyCode.A))
-        {
-            transform.position += move;
-        }
-
-        if (Input.GetKey(KeyCode.D))
-        {
-            transform.position += move;
-        }
-
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            speed = 6f;
-        }
-
-        else
-        {
-            speed = 4f;
-        }
-
-        //test
-
 
     }
-
-
-    void OnCollisionStay()
-    {
-
-        isGrounded = true;
-
-    }
-
-}
