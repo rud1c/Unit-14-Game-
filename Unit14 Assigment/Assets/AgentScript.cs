@@ -19,7 +19,16 @@ public class AgentScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        agent.destination = goal.position;
-        animator.SetFloat("Speed_f", agent.velocity.magnitude); 
+        if(gameObject.tag == "hostage")
+        {
+            animator.SetFloat("Speed_f", 0);
+            animator.SetBool("Crouch_b", true);
+            
+        } else
+        {
+            agent.destination = goal.position;
+            animator.SetFloat("Speed_f", agent.velocity.magnitude);
+        }
+
     }
 }
