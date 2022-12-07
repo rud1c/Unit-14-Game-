@@ -6,6 +6,7 @@ TagManager:
   tags:
   - hostage
   - player
+  - bullet
   layers:
   - Default
   - TransparentFX

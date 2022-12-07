@@ -1,11 +1,11 @@
 using UnityEngine;
 using UnityEngine.AI;
 using TMPro;
+using System.Collections;
+using System.Collections.Generic;
 
 public class EnemyAiTutorial : MonoBehaviour
 {
-    public TextMeshPro m_Text;
-    private TextContainer m_TextContainer;
 
     public Animator animator;
 
@@ -29,6 +29,7 @@ public class EnemyAiTutorial : MonoBehaviour
     public Transform shootFromPosition;
 
 
+
     //Attacking
     public float timeBetweenAttacks;
     bool alreadyAttacked;
@@ -38,20 +39,13 @@ public class EnemyAiTutorial : MonoBehaviour
     public float sightRange, attackRange;
     public bool playerInSightRange, playerInAttackRange;
     private bool _isDead = false;
+   
 
     private void Awake()
     {
 
 
-        m_Text = GetComponent<TextMeshPro>() ?? gameObject.AddComponent<TextMeshPro>();
-        m_Text.autoSizeTextContainer = true;
-
-        // m_TextContainer = GetComponent<TextContainer>();
-        // m_TextContainer.width = 25f;
-        // m_TextContainer.height = 3f;
-        // // Set the point size
-        m_Text.fontSize = 5;
-        m_Text.text = ""+health;
+        
 
         player = GameObject.Find("PlayerController").transform;
         agent = GetComponent<NavMeshAgent>();
@@ -70,6 +64,7 @@ public class EnemyAiTutorial : MonoBehaviour
 
     void Start() {
         //Instantiate(gun, transform.position, transform.rotation);
+        agent = GetComponent<NavMeshAgent>();
     }
     private void Update()
     {
@@ -81,7 +76,11 @@ public class EnemyAiTutorial : MonoBehaviour
         if (playerInSightRange && !playerInAttackRange) ChasePlayer();
         if (playerInAttackRange && playerInSightRange) AttackPlayer();
 
-
+     // agent.destination = goal.position;
+        if(isDead == false)
+        {
+            animator.SetFloat("movementMag", agent.velocity.magnitude);
+        }
     }
     private void idle()
     {
@@ -91,6 +90,7 @@ public class EnemyAiTutorial : MonoBehaviour
 
     }
 
+   
     private void RunToPointAndShoot() {
         // animator.SetBool("Shoot_b", false);
         // animator.SetInteger("WeaponType_int", 0); 
@@ -225,33 +225,50 @@ public class EnemyAiTutorial : MonoBehaviour
     public void TakeDamage(int damage)
     {
         health -= damage;
-        m_Text.text = ""+health;
+        
+        gameObject.GetComponent<EnemyHealth>().SetHealth(damage);
 
-        if (health <= 0) Invoke(nameof(DestroyEnemy), 0.5f);
+        if (health <= 0)
+        {
+            Invoke(nameof(DestroyEnemy), 0.5f);
+        }
     }
     private void DestroyEnemy()
     {
         //if(isDead) return;
 
         Debug.Log("DestroyEnemy");
-        // animator.SetBool("Shoot_b", false);
-        // animator.SetInteger("WeaponType_int", 0); //change to non shoot pose
-        animator.SetBool("Death_b", true);
+       // animator.SetBool("Shoot_b", false);
+       // animator.SetInteger("WeaponType_int", 0); //change to non shoot pose
+       // animator.SetBool("Death_b", true);
+        agent.speed = 0.0f;
+
         isDead = true;
-        Destroy(gameObject, 2);
+        //Destroy(gameObject, 2);
     }
     
     void OnTriggerEnter(Collider other) {
         Debug.Log(other.gameObject.tag);
-        if(other.gameObject.tag == "Bullet"){
-            Invoke(nameof(DestroyEnemy), 0.0f);
-            TakeDamage(100);
+        if(other.gameObject.tag == "bullet"){
+            Debug.Log("Has been shot");
+            //Invoke(nameof(DestroyEnemy), 0.0f);
+            TakeDamage(10);
             Instantiate(blood, other.transform);
         } 
         if(other.gameObject.tag == "Knife"){
             Invoke(nameof(DestroyEnemy), 0.0f);
             TakeDamage(100);
             Instantiate(blood, other.transform);
+
+       
+/*
+        if (other.tag == "bullet")
+        {
+            animator.SetBool("die", true);
+            isDead = true;
+            agent.speed = 0;
+        }
+        */
         }
     }
 
