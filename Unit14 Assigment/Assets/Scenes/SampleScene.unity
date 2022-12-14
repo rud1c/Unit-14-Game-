@@ -2136,13 +2136,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c67a946d00d0fc44ad4e694f25cca61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Text: {fileID: 439571837}
   animator: {fileID: 1901443310}
   agent: {fileID: 439571833}
   player: {fileID: 214136752}
   gunPosition: {fileID: 8565972283275330997, guid: 7e7f2840eb6a6294fb9d04582dbf8079, type: 3}
   gun: {fileID: 8572362472259986371, guid: 7e7f2840eb6a6294fb9d04582dbf8079, type: 3}
-  blood: {fileID: 0}
+  blood: {fileID: 1984037618116014, guid: a1ff4ad1c15edf34290f004078ae88bd, type: 3}
   whatIsGround:
     serializedVersion: 2
     m_Bits: 64
@@ -2378,6 +2377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HealthSlider: {fileID: 1151850824}
+  anim: {fileID: 0}
 --- !u!4 &444304225 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4392599901182710, guid: 9492467a8ad1f6748ae42252b1322a14, type: 3}
