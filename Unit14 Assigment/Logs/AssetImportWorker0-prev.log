@@ -15,11 +15,11 @@ C:/Unity/asigment/Unit14 Assigment
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60658
+64253
 Successfully changed project path to: C:/Unity/asigment/Unit14 Assigment
 C:/Unity/asigment/Unit14 Assigment
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 82.99 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 103.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.29f1 (2ff179115da0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.29f1/Editor/Data/Resources/UnitySubsystems
@@ -35,76 +35,76 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2020.3.29f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2020.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2020.3.29f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2020.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2020.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001703 seconds.
+Registered in 0.001659 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 78.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 75.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.673 seconds
+- Completed reload, in  0.648 seconds
 Domain Reload Profiling:
-	ReloadAssembly (674ms)
-		BeginReloadAssembly (69ms)
+	ReloadAssembly (648ms)
+		BeginReloadAssembly (65ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (530ms)
-			LoadAssemblies (67ms)
+		EndReloadAssembly (511ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (173ms)
+			SetupTypeCache (158ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (214ms)
+			SetupLoadedEditorAssemblies (212ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (78ms)
-				BeforeProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (11ms)
 				ProcessInitializeOnLoadAttributes (90ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002810 seconds.
+Registered in 0.002593 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.008 seconds
+- Completed reload, in  1.003 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1008ms)
-		BeginReloadAssembly (152ms)
+	ReloadAssembly (1005ms)
+		BeginReloadAssembly (158ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (800ms)
-			LoadAssemblies (93ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (788ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (290ms)
+			SetupTypeCache (280ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (289ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (283ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (215ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -113,14 +113,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1569 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 88.9 MB.
 System memory in use after: 89.0 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2024.
-Total: 4.475100 ms (FindLiveObjects: 0.650900 ms CreateObjectMapping: 0.282000 ms MarkObjects: 3.394700 ms  DeleteObjects: 0.143200 ms)
+Total: 2.566800 ms (FindLiveObjects: 0.131400 ms CreateObjectMapping: 0.048500 ms MarkObjects: 2.284600 ms  DeleteObjects: 0.101700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,905 +134,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Magazine_Black_Full.prefab
-  artifactKey: Guid(3891d67bd4812e34db02888d6b7ae428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Magazine_Black_Full.prefab using Guid(3891d67bd4812e34db02888d6b7ae428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db22a596337656d4e8a211fe8caa2c3') in 0.115479 seconds 
-  Import took 0.120243 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Handgun_Black (Shooting).prefab
-  artifactKey: Guid(7e7f2840eb6a6294fb9d04582dbf8079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Handgun_Black (Shooting).prefab using Guid(7e7f2840eb6a6294fb9d04582dbf8079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80de74ae6342e3a13888a50538496f02') in 0.134626 seconds 
-  Import took 0.143264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.214613 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
-  artifactKey: Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat using Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9a6dbab25d6543dfee2789e8fae952') in 0.167195 seconds 
-  Import took 0.171739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Materials/Vehicles/PolygonMilitary_Mat_Air_Vehicles_02.mat
-  artifactKey: Guid(b789206350751ea40986878d4a3358ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Materials/Vehicles/PolygonMilitary_Mat_Air_Vehicles_02.mat using Guid(b789206350751ea40986878d4a3358ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80f0913298f699cfe8b45b85188f576') in 0.027130 seconds 
-  Import took 0.032163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000441 seconds.
-  path: Assets/SimplePeople/_Demo/Ground.mat
-  artifactKey: Guid(2433c26e5a6facf4181722c5a966ab98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/_Demo/Ground.mat using Guid(2433c26e5a6facf4181722c5a966ab98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084142896629783834b1c524a536f6c8') in 0.015706 seconds 
-  Import took 0.028195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000820 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
-  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289988fcecf3b00d1602f8d2b589f7dd') in 0.182482 seconds 
-  Import took 0.198138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Materials/Vehicles/PolygonMilitary_Mat_Air_Vehicles_01.mat
-  artifactKey: Guid(24763329e4943b349aae094fd516ee5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Materials/Vehicles/PolygonMilitary_Mat_Air_Vehicles_01.mat using Guid(24763329e4943b349aae094fd516ee5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aebde2cd3d4bba2e9eb1627c62820f6c') in 0.028948 seconds 
-  Import took 0.036457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat
-  artifactKey: Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat using Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530ab53d4647aa6af37f1765823d784d') in 0.064651 seconds 
-  Import took 0.069267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Environment/Water/Water4/Materials/OceanPlaneMaterial.mat
-  artifactKey: Guid(a437a9b380909fa4d98f929428f70388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment/Water/Water4/Materials/OceanPlaneMaterial.mat using Guid(a437a9b380909fa4d98f929428f70388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b830d5941f52488b7ee0932a887c4463') in 0.317627 seconds 
-  Import took 0.321917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
-  artifactKey: Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf using Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d313bcea6b6ddf2c8c0bdfd1fb81dfc') in 0.094003 seconds 
-  Import took 0.098140 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
-  artifactKey: Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf using Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0d3d5e9fbf8ba6903c17dcbf477454') in 0.019658 seconds 
-  Import took 0.027997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000430 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Materials/FX_Default.mat
-  artifactKey: Guid(dcdc62c57c96a6b48b0292027b65dae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Materials/FX_Default.mat using Guid(dcdc62c57c96a6b48b0292027b65dae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f9b10d44dc815fc32a8b5ee715cfe6') in 0.094561 seconds 
-  Import took 0.110578 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000496 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
-  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba1bb398137a00be6e06e68b72b365d') in 0.076743 seconds 
-  Import took 0.085934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000530 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Materials/Misc/PolygonMilitary_Decorative_Blocks.mat
-  artifactKey: Guid(ac231f0f4fba75c43b28202be9160692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Materials/Misc/PolygonMilitary_Decorative_Blocks.mat using Guid(ac231f0f4fba75c43b28202be9160692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119ae2af6e60f47728f22fe52e81c865') in 0.040155 seconds 
-  Import took 0.049436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c2210586957436df79bf961aeff06e') in 0.066039 seconds 
-  Import took 0.071149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Materials/Misc/PolygonMilitary_Mat_Clouds.mat
-  artifactKey: Guid(d105929ba13c9c04eaa33b25a492c323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Materials/Misc/PolygonMilitary_Mat_Clouds.mat using Guid(d105929ba13c9c04eaa33b25a492c323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf36cd3ce137613667db3db675b7d19') in 0.097656 seconds 
-  Import took 0.108053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000446 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Materials/FX_Circle_Dark.mat
-  artifactKey: Guid(e483fea7ffa80b54bae01bf333b06568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Materials/FX_Circle_Dark.mat using Guid(e483fea7ffa80b54bae01bf333b06568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585b8e60f7ae1a92ae28a597ae65049f') in 0.062460 seconds 
-  Import took 0.070269 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000485 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
-  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0d2861f60500f05bd29199894f7bb5') in 0.078589 seconds 
-  Import took 0.085888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat
-  artifactKey: Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat using Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0993877c1c0e22b53a69262c6ee2775') in 0.184987 seconds 
-  Import took 0.197271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Models/FX_Shard_Rock_Small_01.fbx
-  artifactKey: Guid(2e68dbddeabab79469c7e0ad08418c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Models/FX_Shard_Rock_Small_01.fbx using Guid(2e68dbddeabab79469c7e0ad08418c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a37ed83899aa2964756f588ee1c051') in 0.116352 seconds 
-  Import took 0.125218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000465 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_Archway_01_Collision.fbx
-  artifactKey: Guid(708f96188b8d37444940ae5e2846a789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_Archway_01_Collision.fbx using Guid(708f96188b8d37444940ae5e2846a789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a78066b7916c3a67cd28b757ff2c48c') in 0.032589 seconds 
-  Import took 0.040582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_Destroyed_01_Collision.fbx
-  artifactKey: Guid(5a0a7cfbefc7eb84b95465b2b6f8293a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_Destroyed_01_Collision.fbx using Guid(5a0a7cfbefc7eb84b95465b2b6f8293a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6382009009c67a0c4bf0019b76d59699') in 0.073656 seconds 
-  Import took 0.083493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000886 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_ControlTower_01_Collision.fbx
-  artifactKey: Guid(fac316a510d4772408afb3453a75eb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_ControlTower_01_Collision.fbx using Guid(fac316a510d4772408afb3453a75eb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752f021c9661f11e896afd7c3f765a98') in 0.071275 seconds 
-  Import took 0.084490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000404 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_Archway_03_Collision.fbx
-  artifactKey: Guid(51e4dd3bc21b7dc4c9e30ac6777eb8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_Archway_03_Collision.fbx using Guid(51e4dd3bc21b7dc4c9e30ac6777eb8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd73ab5314ac08499da37b5ad4dade4') in 0.075767 seconds 
-  Import took 0.082633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000455 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Models/FX_Bullet_Trail_Mesh.fbx
-  artifactKey: Guid(705b748d8e89011428e4d879dbcb441d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Models/FX_Bullet_Trail_Mesh.fbx using Guid(705b748d8e89011428e4d879dbcb441d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a782e6d56f603e63a7605ea85e79f9e') in 0.095595 seconds 
-  Import took 0.105511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000446 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Models/FX_Sphere_03.fbx
-  artifactKey: Guid(357d53aa062ebb04e8e5aaa195e1a5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Models/FX_Sphere_03.fbx using Guid(357d53aa062ebb04e8e5aaa195e1a5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b52c8984a0b5f1eb45e70ef10a945c') in 0.085640 seconds 
-  Import took 0.094669 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000561 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_Destroyed_02_Collision.fbx
-  artifactKey: Guid(1a7ad74d5a59a93469c5495394c088db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_Destroyed_02_Collision.fbx using Guid(1a7ad74d5a59a93469c5495394c088db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4feb53335eb486580540ea1ece80d9c4') in 0.071684 seconds 
-  Import took 0.079935 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat
-  artifactKey: Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat using Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2507f20aeeae8d98f86e4c2025440d37') in 0.015333 seconds 
-  Import took 0.021160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Decals/FX_Decal_Bullet_Concrete_02.prefab
-  artifactKey: Guid(39281fdb006a7da4cb0ee1ef81684afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Decals/FX_Decal_Bullet_Concrete_02.prefab using Guid(39281fdb006a7da4cb0ee1ef81684afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f74d762331db99eae78f2bf6619b68c') in 0.391363 seconds 
-  Import took 0.396018 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
-  artifactKey: Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat using Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07a3f0197d45ee33843239212d1c942') in 0.038113 seconds 
-  Import took 0.047401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000896 seconds.
-  path: Assets/SimplePeople/Prefabs/SimplePeople_BeachBabe_Black.prefab
-  artifactKey: Guid(d714ac2c5f4f93d49b94880740d4e6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/Prefabs/SimplePeople_BeachBabe_Black.prefab using Guid(d714ac2c5f4f93d49b94880740d4e6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0bccf175bb8c01f3bcf35b7fc30f86') in 0.125926 seconds 
-  Import took 0.140203 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000497 seconds.
-  path: Assets/SimplePeople/Prefabs/SimplePeople_BusinessMan_Brown.prefab
-  artifactKey: Guid(c14bb5ce28dbb7442a2f79d8b6a061ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/Prefabs/SimplePeople_BusinessMan_Brown.prefab using Guid(c14bb5ce28dbb7442a2f79d8b6a061ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c8b641cae4173149dd92d761b2f130') in 0.092294 seconds 
-  Import took 0.101370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Decals/FX_Decal_Bullet_Concrete_03.prefab
-  artifactKey: Guid(5b6be2c2e1e76704e90234c2c72d52de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Decals/FX_Decal_Bullet_Concrete_03.prefab using Guid(5b6be2c2e1e76704e90234c2c72d52de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f8ae381c42179dd644f30d4180bcba') in 0.027310 seconds 
-  Import took 0.034192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000638 seconds.
-  path: Assets/SimplePeople/Prefabs/SimplePeople_FireFighter_Black.prefab
-  artifactKey: Guid(888c7e05ee7700c46a52b3daf2eacbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/Prefabs/SimplePeople_FireFighter_Black.prefab using Guid(888c7e05ee7700c46a52b3daf2eacbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd22fbee3312464abcf31c9ec25bbe5') in 0.135346 seconds 
-  Import took 0.145074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/SimplePeople/Prefabs/SimplePeople_HouseWife_White.prefab
-  artifactKey: Guid(77e9faacde0433743bfa9fab4585a2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/Prefabs/SimplePeople_HouseWife_White.prefab using Guid(77e9faacde0433743bfa9fab4585a2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3916ca6438a53ab904dd864b4c011ec') in 0.092358 seconds 
-  Import took 0.100274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_CamoNet_Tent_04_Collision.fbx
-  artifactKey: Guid(df256f7325f7505428d51a637fe1a9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_CamoNet_Tent_04_Collision.fbx using Guid(df256f7325f7505428d51a637fe1a9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a2b9c84bc920378745ca9e8cf7376f') in 0.031527 seconds 
-  Import took 0.036497 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1280cc7be10b532b2897fc8654f95d3') in 0.079035 seconds 
-  Import took 0.097866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000557 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Materials/Vehicles/PolygonMilitary_Mat_Air_Vehicles_Burnt.mat
-  artifactKey: Guid(9980bf5b609866a41b882aff8d03fa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Materials/Vehicles/PolygonMilitary_Mat_Air_Vehicles_Burnt.mat using Guid(9980bf5b609866a41b882aff8d03fa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c32ac10e9b2bf1c66a3b1f384429ebe') in 0.042985 seconds 
-  Import took 0.057361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002287 seconds.
-  path: Assets/SimplePeople/Prefabs/SimplePeople_HouseWife_Brown.prefab
-  artifactKey: Guid(ea966a6c6626547479c4d8c7b7a4ab8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/Prefabs/SimplePeople_HouseWife_Brown.prefab using Guid(ea966a6c6626547479c4d8c7b7a4ab8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1fd3b95bcbdf43342149c24d93b00b') in 0.106077 seconds 
-  Import took 0.128824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Environment/TerrainAssets/SurfaceTextures/Materials/GrassHillAlbedo.mat
-  artifactKey: Guid(0b56b09aa7b2bed42a5c46a4e6108d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment/TerrainAssets/SurfaceTextures/Materials/GrassHillAlbedo.mat using Guid(0b56b09aa7b2bed42a5c46a4e6108d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b91d2d515c37010384fe626bf642c3') in 0.021750 seconds 
-  Import took 0.029712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/SimplePeople/Prefabs/SimplePeople_Hobo_Brown.prefab
-  artifactKey: Guid(acc9d8a2d2f9d574885908fdfe7fde10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/Prefabs/SimplePeople_Hobo_Brown.prefab using Guid(acc9d8a2d2f9d574885908fdfe7fde10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adcdc92059b93e2080c10b91638b6b4') in 0.130413 seconds 
-  Import took 0.141335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Decals/FX_Decal_Bullet_Wood_03.prefab
-  artifactKey: Guid(6982ab65774f6724aae616d23ed348ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Decals/FX_Decal_Bullet_Wood_03.prefab using Guid(6982ab65774f6724aae616d23ed348ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602dcec22f9ce2239871960df9fc6f99') in 0.028903 seconds 
-  Import took 0.035953 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001235 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
-  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aecbacf0b5b681b775f225c866b98f6e') in 0.046250 seconds 
-  Import took 0.058780 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Materials/Vehicles/PolygonMilitary_Mat_Air_Large_02.mat
-  artifactKey: Guid(a244002fa9caade459b30b42208673e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Materials/Vehicles/PolygonMilitary_Mat_Air_Large_02.mat using Guid(a244002fa9caade459b30b42208673e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deab2ce59f718f4e1a421dda8e2365ee') in 0.067794 seconds 
-  Import took 0.076503 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000501 seconds.
-  path: Assets/SimplePeople/Prefabs/SimplePeople_FireFighter_Brown.prefab
-  artifactKey: Guid(48d0e91c5bec22942b8ccea02fa05f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/Prefabs/SimplePeople_FireFighter_Brown.prefab using Guid(48d0e91c5bec22942b8ccea02fa05f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ee3827fa3b34b5658cb31864329ce7') in 0.134751 seconds 
-  Import took 0.149096 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000401 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat
-  artifactKey: Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat using Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18b71994742d88d97c1c2a21580d2d7') in 0.015120 seconds 
-  Import took 0.021255 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_Archway_02_Collision.fbx
-  artifactKey: Guid(c6d400f8c53625d4faab4f11ae2d264a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_Archway_02_Collision.fbx using Guid(c6d400f8c53625d4faab4f11ae2d264a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b826c76f5e6d699eeb7cfddc485f75a4') in 0.066978 seconds 
-  Import took 0.076053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000967 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
-  artifactKey: Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat using Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cf10a232fb1e9761a31632be84bc7c') in 0.361286 seconds 
-  Import took 0.372005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Materials/FX_Soft.mat
-  artifactKey: Guid(92fa9101c6b50e1428845e90e04349c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Materials/FX_Soft.mat using Guid(92fa9101c6b50e1428845e90e04349c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584c33f7a2743741f25f7aef4dce777e') in 0.016507 seconds 
-  Import took 0.023529 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
-  artifactKey: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ac7beed70274322407e6f2201347ab') in 0.034031 seconds 
-  Import took 0.049336 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000933 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdddd331c3f1b7826858a8d92db67e39') in 0.031567 seconds 
-  Import took 0.045684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000817 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Materials/FX_Rock.mat
-  artifactKey: Guid(69966edecb89b6241be125d4a2e68721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Materials/FX_Rock.mat using Guid(69966edecb89b6241be125d4a2e68721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb704abfeb5a410a9a82c706443b3ba') in 0.035943 seconds 
-  Import took 0.047722 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000594 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
-  artifactKey: Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat using Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb1a531bdeffaee745a9dd9c4f17fc2') in 0.034051 seconds 
-  Import took 0.046233 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
-  artifactKey: Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf using Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bcbddb7e72e92fa3a6f13b2b0717c42') in 0.059289 seconds 
-  Import took 0.066350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000501 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat
-  artifactKey: Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat using Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a5ca144293083340976837f0521db0') in 0.414139 seconds 
-  Import took 0.420672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Materials/Misc/PolygonMilitary_Decal_BulletHoles_01.mat
-  artifactKey: Guid(e5d9668e8d23c494fae7756574a77fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Materials/Misc/PolygonMilitary_Decal_BulletHoles_01.mat using Guid(e5d9668e8d23c494fae7756574a77fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd3b118bbf8cad348b0392d97932be6') in 0.019825 seconds 
-  Import took 0.026732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000437 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
-  artifactKey: Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat using Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4457526dabe3b1ee21207b5702e85636') in 0.018155 seconds 
-  Import took 0.041519 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000768 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_ControlTower_Destroyed_01_Collision.fbx
-  artifactKey: Guid(f7fa6986bae0d6f4baa90c00d05aadf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_ControlTower_Destroyed_01_Collision.fbx using Guid(f7fa6986bae0d6f4baa90c00d05aadf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b5aae6e50070da393aa35cf74ca418') in 0.051728 seconds 
-  Import took 0.063711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Decals/FX_Decal_Bullet_Wood_01.prefab
-  artifactKey: Guid(89e89ab1ecb776647a41e02207a36b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Decals/FX_Decal_Bullet_Wood_01.prefab using Guid(89e89ab1ecb776647a41e02207a36b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2298516aa7db7e4586eb652ae94d06d8') in 0.064927 seconds 
-  Import took 0.073141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_Barracks_Destroyed_01_Collision.fbx
-  artifactKey: Guid(ce0b7ffc94bf80547abb0172c04a58ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_Barracks_Destroyed_01_Collision.fbx using Guid(ce0b7ffc94bf80547abb0172c04a58ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e1a74cce8b3623d57b60e59f14816c') in 0.067879 seconds 
-  Import took 0.072598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Decals/FX_Decal_Bullet_Concrete_01.prefab
-  artifactKey: Guid(3b1aa7e77622ff048b50275424ccd519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Decals/FX_Decal_Bullet_Concrete_01.prefab using Guid(3b1aa7e77622ff048b50275424ccd519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c41aca92f0bd26765efd8b0549eef43') in 0.067454 seconds 
-  Import took 0.076619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Decals/FX_Decal_Bullet_Metal_01.prefab
-  artifactKey: Guid(27815f7bf34f3af4c8dac9c180ba8d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Decals/FX_Decal_Bullet_Metal_01.prefab using Guid(27815f7bf34f3af4c8dac9c180ba8d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816522e9bbf5134a20dc0e2df3902d61') in 0.064299 seconds 
-  Import took 0.072349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000569 seconds.
-  path: Assets/SimplePeople/Prefabs/SimplePeople_Pimp_Black.prefab
-  artifactKey: Guid(eaa87c0130c9b1f4ba9e270558d2e0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/Prefabs/SimplePeople_Pimp_Black.prefab using Guid(eaa87c0130c9b1f4ba9e270558d2e0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b30fa9bb8097065e0eace54db84f154') in 0.127005 seconds 
-  Import took 0.138181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/SimplePeople/Prefabs/SimplePeople_Pimp_White.prefab
-  artifactKey: Guid(214bcce7f27c132428a1a8aba0ea371a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/Prefabs/SimplePeople_Pimp_White.prefab using Guid(214bcce7f27c132428a1a8aba0ea371a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76681f698552bcdd6623467026b8f311') in 0.122484 seconds 
-  Import took 0.133659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/SimplePeople/Prefabs/SimplePeople_Police_White.prefab
-  artifactKey: Guid(49e9a2b80e32aad49b1ea67be50a44ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/Prefabs/SimplePeople_Police_White.prefab using Guid(49e9a2b80e32aad49b1ea67be50a44ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7948f68bd3e198c94aeeb18ef948a206') in 0.130414 seconds 
-  Import took 0.137093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/SimplePeople/Prefabs/SimplePeople_FireFighter_White.prefab
-  artifactKey: Guid(c393539dfea106a45957b13acb445ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/Prefabs/SimplePeople_FireFighter_White.prefab using Guid(c393539dfea106a45957b13acb445ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aad6022373def95a7ef39b7228cdb92') in 0.140401 seconds 
-  Import took 0.151209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Decals/FX_Decal_Bullet_Metal_02.prefab
-  artifactKey: Guid(9a720d019933e5c499f1411de50d4a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Decals/FX_Decal_Bullet_Metal_02.prefab using Guid(9a720d019933e5c499f1411de50d4a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee07330de0f3483498773174f6fa749f') in 0.028400 seconds 
-  Import took 0.036007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Decals/FX_Decal_Bullet_Glass_01.prefab
-  artifactKey: Guid(610b7c8214bad6b4c97039b58367f4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Decals/FX_Decal_Bullet_Glass_01.prefab using Guid(610b7c8214bad6b4c97039b58367f4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a4d3049fa8941047974a52314eeb14') in 0.066015 seconds 
-  Import took 0.074643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000452 seconds.
-  path: Assets/SimplePeople/Prefabs/SimplePeople_BusinessMan_White.prefab
-  artifactKey: Guid(b186f9485a0828b468f98fe846ae1a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/Prefabs/SimplePeople_BusinessMan_White.prefab using Guid(b186f9485a0828b468f98fe846ae1a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a00f2e4d303b5874d57d0d482ef1644') in 0.119509 seconds 
-  Import took 0.131411 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Decals/FX_Decal_Bullet_Glass_02.prefab
-  artifactKey: Guid(08ba0730f45a30e4c815a6c27d9bbe4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Decals/FX_Decal_Bullet_Glass_02.prefab using Guid(08ba0730f45a30e4c815a6c27d9bbe4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43bf9fb02894174312004f7c2ef3885a') in 0.035013 seconds 
-  Import took 0.039550 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/SimplePeople/Prefabs/SimplePeople_BeachBabe_Brown.prefab
-  artifactKey: Guid(40ed268e2df0a394ca090fe991bf3af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/Prefabs/SimplePeople_BeachBabe_Brown.prefab using Guid(40ed268e2df0a394ca090fe991bf3af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfaf3326579af15be9de6f3a63831cf') in 0.121915 seconds 
-  Import took 0.129598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_CamoNet_Tent_03_Collision.fbx
-  artifactKey: Guid(07b6547d164967640ac357f1b516ac2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_CamoNet_Tent_03_Collision.fbx using Guid(07b6547d164967640ac357f1b516ac2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a6fb0260972911fe7138daba4f11c1') in 0.031805 seconds 
-  Import took 0.035798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/SimplePeople/Prefabs/SimplePeople_Pimp_Brown.prefab
-  artifactKey: Guid(ddd740d46a8a6eb4399573a9f3d4b2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/Prefabs/SimplePeople_Pimp_Brown.prefab using Guid(ddd740d46a8a6eb4399573a9f3d4b2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60ba88907253e8b7a35e6676a53c49d') in 0.132748 seconds 
-  Import took 0.144049 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000571 seconds.
-  path: Assets/SimplePeople/Prefabs/SimplePeople_Hobo_Black.prefab
-  artifactKey: Guid(595794b9a4c7b884a93afc538ea183fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/Prefabs/SimplePeople_Hobo_Black.prefab using Guid(595794b9a4c7b884a93afc538ea183fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6112e269b9e4b4f2a502ac096fd4ff9') in 0.126494 seconds 
-  Import took 0.138658 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Environment/Water/Water4/Models/OceanPlane.FBX
-  artifactKey: Guid(681e41ee1260343b395ca58745c94870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment/Water/Water4/Models/OceanPlane.FBX using Guid(681e41ee1260343b395ca58745c94870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e54a86638f9b7b1f08c7a1f4eb77e1') in 0.027658 seconds 
-  Import took 0.034520 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000578 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Materials/Misc/PolygonMilitary_Fence_Wire.mat
-  artifactKey: Guid(e188f16591b1b1544a024ba7f88dd8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Materials/Misc/PolygonMilitary_Fence_Wire.mat using Guid(e188f16591b1b1544a024ba7f88dd8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1db4568d21e56bca3a5dfdddb9e9a9') in 0.056808 seconds 
-  Import took 0.069123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001125 seconds.
-  path: Assets/SimplePeople/Prefabs/SimplePeople_Hobo_White.prefab
-  artifactKey: Guid(3386efbe8e8a9664bbf5138fd2748628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/Prefabs/SimplePeople_Hobo_White.prefab using Guid(3386efbe8e8a9664bbf5138fd2748628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e573ea1eb546905aec25539e3dcf1428') in 0.131573 seconds 
-  Import took 0.141900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
-  artifactKey: Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf using Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a682bbb39787555d96ca66a99595bfc7') in 0.029424 seconds 
-  Import took 0.033465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/SimplePeople/Prefabs/SimplePeople_Doctor_White.prefab
-  artifactKey: Guid(d70170446aa035f40a2429d04ab83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/Prefabs/SimplePeople_Doctor_White.prefab using Guid(d70170446aa035f40a2429d04ab83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df820185cdce05e35c8129399dd9789a') in 0.126990 seconds 
-  Import took 0.134597 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Materials/FX_Dark.mat
-  artifactKey: Guid(db5f0d67df793824fb0c40433a95a8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Materials/FX_Dark.mat using Guid(db5f0d67df793824fb0c40433a95a8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db92c2c863f742b5c7ef448519ac989') in 0.017700 seconds 
-  Import took 0.024764 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
-  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f74535dbbe80d820aad8820167369b') in 0.040205 seconds 
-  Import took 0.067687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000901 seconds.
-  path: Assets/SimplePeople/Prefabs/SimplePeople_HouseWife_Black.prefab
-  artifactKey: Guid(da2c75d1eb537d343a12a9d832f28807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/Prefabs/SimplePeople_HouseWife_Black.prefab using Guid(da2c75d1eb537d343a12a9d832f28807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62d735f9ff7fb4bc39f583356db8d40') in 0.161313 seconds 
-  Import took 0.173122 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/SimplePeople/Prefabs/SimplePeople_Police_Black.prefab
-  artifactKey: Guid(4f2d47505ddfc604a9f702e0599aa2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/Prefabs/SimplePeople_Police_Black.prefab using Guid(4f2d47505ddfc604a9f702e0599aa2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69e8d6e23b5ec1dfbf9537d027c7f5f') in 0.128749 seconds 
-  Import took 0.135456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000412 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Decals/FX_Decal_Bullet_Metal_03.prefab
-  artifactKey: Guid(2c90a08e2e191394bb38c5d170f9942a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Decals/FX_Decal_Bullet_Metal_03.prefab using Guid(2c90a08e2e191394bb38c5d170f9942a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d6265d2b37b29fa458483140a8e357') in 0.028910 seconds 
-  Import took 0.034931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Materials/FX_Glow.mat
-  artifactKey: Guid(693b44b53fda8a746a395a681cc27418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Materials/FX_Glow.mat using Guid(693b44b53fda8a746a395a681cc27418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8271818cce709f880c868e4eb015b6b2') in 0.054629 seconds 
-  Import took 0.063225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_CamoNet_Tent_02_Collision.fbx
-  artifactKey: Guid(941e00af1e809e14483e85bc571a9ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_CamoNet_Tent_02_Collision.fbx using Guid(941e00af1e809e14483e85bc571a9ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b88c02ea236ed2c465ea2f0cd8ccce1') in 0.059929 seconds 
-  Import took 0.070821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000697 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Materials/FX_Circle.mat
-  artifactKey: Guid(cbdbc7f00ebbecf4db3f4e2ffd7838c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Materials/FX_Circle.mat using Guid(cbdbc7f00ebbecf4db3f4e2ffd7838c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157e7f52383e81d86c807fe7076fb0f8') in 0.025316 seconds 
-  Import took 0.039725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000937 seconds.
-  path: Assets/SimplePeople/Prefabs/SimplePeople_BeachBabe_White.prefab
-  artifactKey: Guid(ab962cacf7f4cc64fa9cf9cd8f75c972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/Prefabs/SimplePeople_BeachBabe_White.prefab using Guid(ab962cacf7f4cc64fa9cf9cd8f75c972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b2ec08fdeb4ab5fb96d1214afd2c8f') in 0.109627 seconds 
-  Import took 0.137004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001913 seconds.
-  path: Assets/SimplePeople/Prefabs/SimplePeople_BusinessMan_Black.prefab
-  artifactKey: Guid(2f8d00bf5057f624e949aef802595da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/Prefabs/SimplePeople_BusinessMan_Black.prefab using Guid(2f8d00bf5057f624e949aef802595da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0aebd351d723e81c9ea559ffabd215') in 0.107761 seconds 
-  Import took 0.121341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat
-  artifactKey: Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat using Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab2dc3a4077b37fe1bf25fc2e34219a') in 0.158906 seconds 
-  Import took 0.165991 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Decals/FX_Decal_Bullet_Wood_02.prefab
-  artifactKey: Guid(41eb13fe65bf30b4a90860d18427c77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Decals/FX_Decal_Bullet_Wood_02.prefab using Guid(41eb13fe65bf30b4a90860d18427c77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1800b4509282581200207c90a84c467c') in 0.028514 seconds 
-  Import took 0.036361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Decals/FX_Decal_Bullet_Glass_03.prefab
-  artifactKey: Guid(62547f200944a9a4fb898fac612013c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Decals/FX_Decal_Bullet_Glass_03.prefab using Guid(62547f200944a9a4fb898fac612013c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907fa390cf6badc79e28eaf676c5eadb') in 0.061127 seconds 
-  Import took 0.070217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000472 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat
-  artifactKey: Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat using Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d5558f03e795f216f7f29785091b5c') in 0.012644 seconds 
-  Import took 0.031519 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001440 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Materials/Vehicles/PolygonMilitary_Mat_Air_Large_01.mat
-  artifactKey: Guid(2072519f41d197b45be2535871372287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Materials/Vehicles/PolygonMilitary_Mat_Air_Large_01.mat using Guid(2072519f41d197b45be2535871372287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a69537c90f4667127bce0426e8c4ef') in 0.037664 seconds 
-  Import took 0.050114 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001079 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_CamoNet_Tent_05_Collision.fbx
-  artifactKey: Guid(d977a90feb135824a875235e37a9dad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_CamoNet_Tent_05_Collision.fbx using Guid(d977a90feb135824a875235e37a9dad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7928c49989e004d41030696a0821a6a8') in 0.067412 seconds 
-  Import took 0.077734 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/SM_Bld_Shop_12.fbx
-  artifactKey: Guid(f8b1ac1e11e2dd94eb5d8e13b38bfb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/SM_Bld_Shop_12.fbx using Guid(f8b1ac1e11e2dd94eb5d8e13b38bfb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f870aa4407a7c245a217e9015ac34f8e') in 0.081149 seconds 
-  Import took 0.091634 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001280 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Materials/Misc/PolygonMilitary_Camo_Netting_Mat.mat
-  artifactKey: Guid(dc21154f7ac1cd54284bee6e5bfc229f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Materials/Misc/PolygonMilitary_Camo_Netting_Mat.mat using Guid(dc21154f7ac1cd54284bee6e5bfc229f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3bd0b7a6808cb175c41b95ef6eccc8') in 0.044212 seconds 
-  Import took 0.067001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
-  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd214e28bdeb8e7d744101e38a9ef9c0f') in 0.066328 seconds 
-  Import took 0.075394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/SimplePeople/Prefabs/SimplePeople_Doctor_Black.prefab
-  artifactKey: Guid(03ffd135f81a3fb4cb6f2e6e944f979d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/Prefabs/SimplePeople_Doctor_Black.prefab using Guid(03ffd135f81a3fb4cb6f2e6e944f979d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b859a41dffbd1cc28844ef84bc303da') in 0.142809 seconds 
-  Import took 0.160317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_Barracks_01_Collision.fbx
-  artifactKey: Guid(efe669ed44f13964ba9085a504b5c486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_Barracks_01_Collision.fbx using Guid(efe669ed44f13964ba9085a504b5c486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026e8e799ab542925e34cf02e6bc92d9') in 0.027705 seconds 
-  Import took 0.034716 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000452 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat
-  artifactKey: Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat using Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1750271ec33564c9e991fc66a41ad3d0') in 0.194338 seconds 
-  Import took 0.200568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/SimplePeople/Prefabs/SimplePeople_Police_Brown.prefab
-  artifactKey: Guid(6d9c488c3a71ac54bb7f42a32e6d3c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/Prefabs/SimplePeople_Police_Brown.prefab using Guid(6d9c488c3a71ac54bb7f42a32e6d3c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e7c0e77e027ee43eef9f817af93fb2') in 0.083502 seconds 
-  Import took 0.093171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Models/FX_Sphere.fbx
-  artifactKey: Guid(219de587148d8bb41a8e255859dafe53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Prefabs/FX/Models/FX_Sphere.fbx using Guid(219de587148d8bb41a8e255859dafe53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41cca066add1eb13b57c42fb293d9c2') in 0.024324 seconds 
-  Import took 0.034048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_CamoNet_Tent_01_Collision.fbx
-  artifactKey: Guid(6cbe2c0b92ebe904c95678c3b5d23a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/CollisionCustom/SM_Bld_CamoNet_Tent_01_Collision.fbx using Guid(6cbe2c0b92ebe904c95678c3b5d23a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b39c9b74b857778510a6a1ddf83035b') in 0.063724 seconds 
-  Import took 0.069838 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000439 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Materials/Misc/PolygonMilitary_Mat_Glass.mat
-  artifactKey: Guid(48e0a98abf53d8949ba5733a2bb24f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Materials/Misc/PolygonMilitary_Mat_Glass.mat using Guid(48e0a98abf53d8949ba5733a2bb24f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571e763874eb3e9fb0b1b5646e4cb3c0') in 0.071890 seconds 
-  Import took 0.084339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/SM_Bld_Shop_13.fbx
-  artifactKey: Guid(2284a3e4a05652e4884fd55f6a7586d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Universal_Shooter-main/Assets/PolygonMilitary/Models/SM_Bld_Shop_13.fbx using Guid(2284a3e4a05652e4884fd55f6a7586d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88d3f755b3e5a52a92e082be891fa4b') in 0.073541 seconds 
-  Import took 0.087112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001649 seconds.
-  path: Assets/SimplePeople/Prefabs/SimplePeople_Doctor_Brown.prefab
-  artifactKey: Guid(f19c9246d91b3d5488c65e0539de4da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/Prefabs/SimplePeople_Doctor_Brown.prefab using Guid(f19c9246d91b3d5488c65e0539de4da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab25a95fb44224a04a4bb9e2caf18a3c') in 0.116788 seconds 
-  Import took 0.139417 seconds .
+  path: Assets/EnemyAiTutorial.cs
+  artifactKey: Guid(6c67a946d00d0fc44ad4e694f25cca61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyAiTutorial.cs using Guid(6c67a946d00d0fc44ad4e694f25cca61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88b29657a369bdffb070bf283d8f504') in 0.018369 seconds 
+  Import took 0.022544 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006655 seconds.
+Registered in 0.003381 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.939 seconds
+- Completed reload, in  0.989 seconds
 Domain Reload Profiling:
-	ReloadAssembly (939ms)
+	ReloadAssembly (990ms)
 		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (767ms)
-			LoadAssemblies (91ms)
+		EndReloadAssembly (814ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
+			SetupTypeCache (272ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (290ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (322ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (225ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1546 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.5 MB.
-System memory in use after: 106.6 MB.
+System memory in use before: 87.0 MB.
+System memory in use after: 87.1 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2078.
-Total: 2.855800 ms (FindLiveObjects: 0.177900 ms CreateObjectMapping: 0.052500 ms MarkObjects: 2.581100 ms  DeleteObjects: 0.043500 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2026.
+Total: 3.799000 ms (FindLiveObjects: 0.204200 ms CreateObjectMapping: 0.053300 ms MarkObjects: 3.498100 ms  DeleteObjects: 0.041800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1044,4 +196,229 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 284.448014 seconds.
+  path: Assets/Environment/Water/Water4/Textures/SimpleFoam.png
+  artifactKey: Guid(36dd0b22da8874ed38075789055ca664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Water/Water4/Textures/SimpleFoam.png using Guid(36dd0b22da8874ed38075789055ca664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a2c678eee34dca8947061bbfe4a29e') in 0.121361 seconds 
+  Import took 0.127005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/SimplePeople/Textures/SimplePeople_HouseWife_Black.png
+  artifactKey: Guid(ae5848b0c9fff6c4a87e3bbe87b1e119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/Textures/SimplePeople_HouseWife_Black.png using Guid(ae5848b0c9fff6c4a87e3bbe87b1e119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c436ac68d0dc7edd0b092f2d214d0c1') in 0.021439 seconds 
+  Import took 0.027093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/SimplePeople/Textures/SimplePeople_BeachBabe_Black.png
+  artifactKey: Guid(3b5da37f4a0c7dc4cb0d29868a1bdaa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/Textures/SimplePeople_BeachBabe_Black.png using Guid(3b5da37f4a0c7dc4cb0d29868a1bdaa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec215596b51eb0f3372e44f8897c730') in 0.016809 seconds 
+  Import took 0.023747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001025 seconds.
+  path: Assets/SimplePeople/Textures/SimplePeople_HouseWife_White.png
+  artifactKey: Guid(653bf99aa73b8fc4c804114eb97296e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/Textures/SimplePeople_HouseWife_White.png using Guid(653bf99aa73b8fc4c804114eb97296e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8512b255c14aac5c0e7b44d52b1f0956') in 0.065479 seconds 
+  Import took 0.073470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/SimplePeople/Textures/SimplePeople_Doctor_White.png
+  artifactKey: Guid(fe1471620c6980246afa8143d135e9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/Textures/SimplePeople_Doctor_White.png using Guid(fe1471620c6980246afa8143d135e9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ef820de9fcec2086bd75963ea442d2') in 0.023040 seconds 
+  Import took 0.032020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002511 seconds.
+  path: Assets/SimplePeople/Textures/SimplePeople_BusinessMan_Brown.png
+  artifactKey: Guid(5d6795382a9cf8e45a68ba4346c66efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/Textures/SimplePeople_BusinessMan_Brown.png using Guid(5d6795382a9cf8e45a68ba4346c66efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f5e6061a69fa10dcd36f125e73091a') in 0.036133 seconds 
+  Import took 0.047720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/SimplePeople/Textures/SimplePeople_FireFighter_Black.png
+  artifactKey: Guid(1dd55d24cdc80804ab58a368af8f948a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/Textures/SimplePeople_FireFighter_Black.png using Guid(1dd55d24cdc80804ab58a368af8f948a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1cb21f25307ee9a673d076599f617a') in 0.037994 seconds 
+  Import took 0.044770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000643 seconds.
+  path: Assets/SimplePeople/Textures/SimplePeople_Hobo_White.png
+  artifactKey: Guid(aae008583869b5e4cbfeb60ffb1bbb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/Textures/SimplePeople_Hobo_White.png using Guid(aae008583869b5e4cbfeb60ffb1bbb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbb0a6fd1967c7ca68c4b0a7ab06ef0') in 0.024173 seconds 
+  Import took 0.033434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/SimplePeople/Textures/SimplePeople_Hobo_Black.png
+  artifactKey: Guid(42087df9921804c40a4d57603a90423f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/Textures/SimplePeople_Hobo_Black.png using Guid(42087df9921804c40a4d57603a90423f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3f186bfc5142c0c1a7fe1e636e2322') in 0.027679 seconds 
+  Import took 0.036258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/SimplePeople/Textures/SimplePeople_BeachBabe_White.png
+  artifactKey: Guid(d7e48aae8277dc14db4fa367e49611a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/Textures/SimplePeople_BeachBabe_White.png using Guid(d7e48aae8277dc14db4fa367e49611a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe7a924ec2837c7cbfa7e3c66cebb6d') in 0.027324 seconds 
+  Import took 0.036102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/SimplePeople/Textures/SimplePeople_BusinessMan_Black.png
+  artifactKey: Guid(9506c885cd9fa144e9142a03fbd99dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/Textures/SimplePeople_BusinessMan_Black.png using Guid(9506c885cd9fa144e9142a03fbd99dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401811646d63de8f0eb8697bc90af5dd') in 0.017366 seconds 
+  Import took 0.026658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000555 seconds.
+  path: Assets/SimplePeople/Textures/SimplePeople_BusinessMan_White.png
+  artifactKey: Guid(12e281a5b44dcce4393d675312775b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/Textures/SimplePeople_BusinessMan_White.png using Guid(12e281a5b44dcce4393d675312775b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530dc96179c5e6fd5c6301013070e986') in 0.041466 seconds 
+  Import took 0.054712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/SimplePeople/Textures/SimplePeople_BeachBabe_Brown.png
+  artifactKey: Guid(aa86d3318ad6db44aaf8dfab18732408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/Textures/SimplePeople_BeachBabe_Brown.png using Guid(aa86d3318ad6db44aaf8dfab18732408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f8e19825838f0b9b092b23a39a13d5') in 0.017769 seconds 
+  Import took 0.025677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001081 seconds.
+  path: Assets/SimplePeople/Textures/SimplePeople_Doctor_Black.png
+  artifactKey: Guid(002f8de457afeef49b3d5456f61586ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/Textures/SimplePeople_Doctor_Black.png using Guid(002f8de457afeef49b3d5456f61586ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3317c72e6ad7f2aeb38a7ebd21cb7f15') in 0.041760 seconds 
+  Import took 0.058753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/SimplePeople/Textures/SimplePeople_FireFighter_Brown.png
+  artifactKey: Guid(942049c2a00aa9f4fb72263681e65d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/Textures/SimplePeople_FireFighter_Brown.png using Guid(942049c2a00aa9f4fb72263681e65d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69614905f406e48c85070737260b6583') in 0.041435 seconds 
+  Import took 0.049584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000941 seconds.
+  path: Assets/SimplePeople/Textures/SimplePeople_Pimp_Black.png
+  artifactKey: Guid(56fb492cd1e02de42afa6d4d27217fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/Textures/SimplePeople_Pimp_Black.png using Guid(56fb492cd1e02de42afa6d4d27217fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ddb3208091de1571fa04bd28cbb9231') in 0.023853 seconds 
+  Import took 0.032395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/SimplePeople/Textures/SimplePeople_Doctor_Brown.png
+  artifactKey: Guid(9aac84faf67d0ca4b9d6efbd4d27a849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/Textures/SimplePeople_Doctor_Brown.png using Guid(9aac84faf67d0ca4b9d6efbd4d27a849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b219476ca7409af2f0bb2e6918c46d27') in 0.022699 seconds 
+  Import took 0.039162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/SimplePeople/Textures/SimplePeople_HouseWife_Brown.png
+  artifactKey: Guid(b40275627efde744b980f72921706196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/Textures/SimplePeople_HouseWife_Brown.png using Guid(b40275627efde744b980f72921706196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f22a916dee9d63a5f390a0e7fef0ccf') in 0.021255 seconds 
+  Import took 0.032317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000788 seconds.
+  path: Assets/SimplePeople/Textures/SimplePeople_Hobo_Brown.png
+  artifactKey: Guid(6afa063c876df5049ab25c4580268d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/Textures/SimplePeople_Hobo_Brown.png using Guid(6afa063c876df5049ab25c4580268d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acfb7f9292e8fc040a0ec4b7553c0dd6') in 0.038212 seconds 
+  Import took 0.046168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000665 seconds.
+  path: Assets/SimplePeople/Textures/SimplePeople_FireFighter_White.png
+  artifactKey: Guid(aa906dd0e1eb4b54d9b1054f3c9a3ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/Textures/SimplePeople_FireFighter_White.png using Guid(aa906dd0e1eb4b54d9b1054f3c9a3ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6291f1d2471cfaec8d366b26b2a3927e') in 0.023249 seconds 
+  Import took 0.034520 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002744 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.909 seconds
+Domain Reload Profiling:
+	ReloadAssembly (910ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (748ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (263ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1546 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.1 MB.
+System memory in use after: 87.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2030.
+Total: 3.023400 ms (FindLiveObjects: 0.165900 ms CreateObjectMapping: 0.054900 ms MarkObjects: 2.782100 ms  DeleteObjects: 0.019600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 151.541733 seconds.
+  path: Assets/AgentCharacterController (guard) 1.prefab
+  artifactKey: Guid(4d812422b07ce7444a77db533d5dd994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AgentCharacterController (guard) 1.prefab using Guid(4d812422b07ce7444a77db533d5dd994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a8120f949e1f0f5a002923e6b97b68') in 0.312275 seconds 
+  Import took 0.326385 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
